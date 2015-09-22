@@ -3,7 +3,7 @@ GlobeAdRemover = {
 
   run: function() {
     GlobeAdRemover.intervalID = setInterval(function() {
-      adWrappers = $(".ad, .ad-wrapper");
+      adWrappers = $(".ad, .ad-wrapper, .ad-inside-content");
       adWrappers.css("display", "none");
     }, 1000)
   },

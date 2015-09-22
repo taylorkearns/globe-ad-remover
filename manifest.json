@@ -7,7 +7,7 @@
 
   "content_scripts": [
     {
-      "matches": ["http://www.bostonglobe.com/*"],
+      "matches": ["http://www.bostonglobe.com/*", "http://www.betaboston.com/*"],
       "js": ["jquery.min.js", "ad_remover.js"]
     }
   ],
